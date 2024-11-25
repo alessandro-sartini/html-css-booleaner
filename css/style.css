@@ -1,6 +1,7 @@
 .container{
     padding: 2%;
-    margin-left: 10% ;
+    margin-left: 6% ;
+    margin-right: 6% ;
 }
 .banner {
     background-image: url(../img/pattern.png);
@@ -22,8 +23,8 @@
     
 }
 p span{
-    color: blue;
-    text-decoration: underline;
+    color: rgb(107, 201, 233);
+   font-weight: bolder;
 }
 .little-text{
     font-size: 13px;
@@ -46,16 +47,21 @@ table, td, th{
     table-layout: fixed;
 }
 td, th{
-    padding: 15px;
-    width: 33%; /* Larghezza uniforme per le colonne */
+   
+    width: 33%;  /* Larghezza uniforme*/
     text-align: left;
+    margin-right: 10px;
 }
+#strong{
+    font-weight:900;
+}
+
 thead{
-    background-color: rgb(0, 162, 255);
+    background-color:#4EA0FF;
     color: white;
 }
 .azure{
-    background-color: rgb(127, 236, 255);
+    background-color: #B1E5F2;
 }
 .link{
     margin-top: 20px;
@@ -69,11 +75,16 @@ thead{
 .img-link{ 
   
     margin-top: 20px;
-    height: 200px;
-    width: 200px;
+    height: 212px;
+    width: 311px ;
+    background-repeat: no-repeat;
+    
+}
+#img1{
     background-image: url(/img/monitor.jpg);
-    
-    
+}
+#img2{
+    background-image: url(/img/graph.jpg);
 }
 .img-link p{
     color: white;
