@@ -57,3 +57,26 @@ thead{
 .azure{
     background-color: rgb(127, 236, 255);
 }
+.link{
+    margin-top: 20px;
+}
+
+.link p{
+    font-size: large;
+    color: grey;
+
+}
+.img-link{ 
+  
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    background-image: url(/img/monitor.jpg);
+    
+    
+}
+.img-link p{
+    color: white;
+    margin-left: 10%;
+    padding-top: 5%;
+}
