@@ -1,3 +1,7 @@
+.container{
+    padding: 2%;
+    margin-left: 10% ;
+}
 .banner {
     background-image: url(../img/pattern.png);
     background-color: rgb(0, 174, 255);
@@ -13,11 +17,21 @@
     height: 90px;
 
 }
-.container{
-    padding: 2%;
-    margin-left: 10% ;
+.text-grey, .little-text{
+    color: grey;
+    
 }
-
+p span{
+    color: blue;
+    text-decoration: underline;
+}
+.little-text{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.img-lee p{
+    font-size: 11px;
+}
 .some-text{
     padding-top: 20px;
 }
