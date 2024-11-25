@@ -1,7 +1,6 @@
 .container{
-    padding: 2%;
-    margin-left: 6% ;
-    margin-right: 6% ;
+    margin: 12%;
+    margin-top: 1%;
 }
 .banner {
     background-image: url(../img/pattern.png);
